@@ -2,6 +2,7 @@ from unittest import TestCase
 from triangle import area_of_a_triangle
 
 class TestAreaOfTriangle(TestCase):
+    """Test cases for calculating the area of a triangle"""
 
     def test_float_values(self):
         """ Test areas when values are floats """
